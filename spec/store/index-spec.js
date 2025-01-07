@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import { CompositeDisposable } from "atom";
 import { isObservableMap, isObservableProp, isComputedProp } from "mobx";

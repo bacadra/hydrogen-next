@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 // const { dialog } = require("electron").remote;
 const { existsSync } = require("fs");

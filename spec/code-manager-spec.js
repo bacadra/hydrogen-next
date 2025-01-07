@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import { waitAsync } from "./helpers/test-utils";
 

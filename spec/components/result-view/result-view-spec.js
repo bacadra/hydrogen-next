@@ -1,4 +1,5 @@
-"use babel";
+'use babel'
+/** @jsx React.createElement */
 
 import React from "react";
 import { shallow } from "enzyme";

@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import { Store } from "../dist/store";
 import { toggleInspector, toggleOutputMode } from "../dist/commands";

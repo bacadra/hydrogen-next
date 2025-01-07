@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import { KernelManager, ks } from "../dist/kernel-manager";
 

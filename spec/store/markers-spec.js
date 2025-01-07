@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import { Range } from "atom";
 

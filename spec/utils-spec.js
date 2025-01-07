@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import ReactDOM from "react-dom";
 import { CompositeDisposable } from "atom";

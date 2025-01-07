@@ -1,4 +1,5 @@
-"use babel";
+'use babel'
+/** @jsx React.createElement */
 
 import { mount } from "enzyme";
 import _ from "lodash";

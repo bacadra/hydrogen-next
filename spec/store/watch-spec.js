@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 import WatchStore from "../../dist/store/watch";
 

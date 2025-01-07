@@ -1,4 +1,4 @@
-"use babel";
+'use babel'
 
 // runAsync is borrowed and modified from link below.
 // https://github.com/jasmine/jasmine/issues/923#issuecomment-169634461
