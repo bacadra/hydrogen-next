@@ -3,7 +3,7 @@
 import { CompositeDisposable } from "atom";
 
 const PANES = ["inspector", "kernel-monitor", "output-area", "watches"];
-const utils = require("../dist/utils");
+const utils = require("../lib/utils");
 
 describe("Panes", () => {
   PANES.map((file) => {
@@ -11,7 +11,7 @@ describe("Panes", () => {
       let pane;
       beforeEach(() => {
         spyOn(utils, "reactFactory");
-        const Pane = require(`../dist/panes/${file}`).default;
+        const Pane = require(`../lib/panes/${file}`).default;
         pane = new Pane();
       });
       it("should correctly initialize", () => {

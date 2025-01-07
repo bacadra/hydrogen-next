@@ -1,6 +1,6 @@
 'use babel'
 
-import Config from "../dist/config";
+import Config from "../lib/config";
 
 describe("Config", () => {
   it("should read config values", () => {
