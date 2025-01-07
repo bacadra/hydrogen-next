@@ -1,9 +1,7 @@
 {
-  "name": "Hydrogen",
-  "main": "./dist/main",
-  "version": "2.16.4",
+  "name": "hydrogen-next",
   "description": "Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text editor.",
-  "author": "nteract contributors",
+  "repository": "https://github.com/asiloisad/hydrogen-next",
   "keywords": [
     "execute",
     "run",
@@ -18,6 +16,12 @@
     "plot",
     "image"
   ],
+  "version": "3.0.0",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.28.0 <2.0.0"
+  },
+  "main": "./lib/main",
   "activationCommands": {
     "atom-text-editor": [
       "hydrogen:start-local-kernel",
@@ -33,27 +37,6 @@
     "atom-workspace": [
       "hydrogen:import-notebook"
     ]
-  },
-  "scripts": {
-    "format": "prettier --write .",
-    "test.format": "prettier . --check",
-    "lint": "eslint . --fix",
-    "test.lint": "eslint .",
-    "build.test": "npm run build && npm run test",
-    "test": "echo 'test without rebuilding' && atom --test spec",
-    "clean": "shx rm -rf dist",
-    "build": "npm run clean && npm run tsc && npm run clean.prod",
-    "build:services-docs": "markdox lib/services/index.js -o lib/services/README.md",
-    "build:plugin-docs": "markdox lib/plugin-api/hydrogen-provider.js lib/plugin-api/hydrogen-kernel.js -o docs/PluginAPI.md",
-    "build:docs": "npm run build:plugin-docs && npm run build:services-docs",
-    "build-commit": "build-commit -o dist",
-    "prepare": "npm run build"
-  },
-  "atomTestRunner": "atom-jasmine3-test-runner",
-  "repository": "https://github.com/nteract/hydrogen",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.28.0 <2.0.0"
   },
   "dependencies": {
     "@jupyterlab/services": "^0.52.0",
@@ -110,20 +93,6 @@
     }
   },
   "devDependencies": {
-    "@nteract/types": "^7.1.7",
-    "@types/atom": "^1.40.10",
-    "@types/enzyme": "^3.10.8",
-    "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/lodash": "^4.14.168",
-    "@types/node": "^14.14.37",
-    "@types/react": "^17.0.8",
-    "@types/react-dom": "^17.0.5",
-    "@types/react-table": "^6",
-    "@types/react-test-renderer": "^17.0.1",
-    "@types/styled-components": "^5.1.9",
-    "@types/uuid": "^8.3.0",
-    "@types/ws": "^7.4.1",
-    "atom-jasmine3-test-runner": "^5.2.5",
     "build-commit": "^0.1.4",
     "electron": "^6",
     "enzyme": "^3.11.0",
@@ -134,7 +103,6 @@
     "markdox": "^0.1.10",
     "prettier-config-atomic": "^2.0.5",
     "react-test-renderer": "^17.0.2",
-    "shx": "^0.3.3",
-    "typescript": "^4.2.4"
+    "shx": "^0.3.3"
   }
 }
