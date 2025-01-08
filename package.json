@@ -1,6 +1,6 @@
 {
   "name": "hydrogen-next",
-  "description": "Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text editor.",
+  "description": "Run code interactively, inspect data, and plot.",
   "repository": "https://github.com/bacadra/hydrogen-next",
   "keywords": [
     "execute",
