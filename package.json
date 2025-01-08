@@ -1,7 +1,7 @@
 {
-  "name": "hydrogen-next",
+  "name": "pulsar-hydrogen-next",
   "description": "Run code interactively, inspect data, and plot.",
-  "repository": "https://github.com/bacadra/hydrogen-next",
+  "repository": "https://github.com/bacadra/pulsar-hydrogen-next",
   "keywords": [
     "execute",
     "run",

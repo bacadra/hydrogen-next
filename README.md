@@ -2,6 +2,8 @@
 
 A package provide an interactive coding environment that supports Python, R, JavaScript and other Jupyter kernels.
 
+![demo](https://github.com/bacadra/pulsar-hydrogen-next/blob/master/assets/demo.gif?raw=true)
+
 ## Installation
 
 To install `hydrogen-next` search for [hydrogen-next](https://web.pulsar-edit.dev/packages/hydrogen-next) in the Install pane of the Pulsar settings or run `ppm install hydrogen-next`. Alternatively, you can run `ppm install bacadra/pulsar-hydrogen-next` to install a package directly from the Github repository.
