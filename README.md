@@ -1,29 +1,41 @@
 # hydrogen-next
 
-Fork of [Hydrogen](https://github.com/nteract/hydrogen).
+A package provide an interactive coding environment that supports Python, R, JavaScript and other Jupyter kernels.
 
 ## Installation
 
 To install `hydrogen-next` search for [hydrogen-next](https://web.pulsar-edit.dev/packages/hydrogen-next) in the Install pane of the Pulsar settings or run `ppm install hydrogen-next`. Alternatively, you can run `ppm install bacadra/pulsar-hydrogen-next` to install a package directly from the Github repository.
 
+## Useful links
+
+- https://github.com/nteract/hydrogen
+- https://nteract.gitbooks.io/hydrogen/content/
+- https://blog.nteract.io/hydrogen-interactive-computing-in-atom-89d291bcc4dd
+
 ## Features
+
+Featues of `hydrogen` & `hydrogen-next`:
+
+- Execute a line, selection, or block at a time.
+- Rich media support for plots, images, and video.
+- Watch expressions let you keep track of variables and re-run snippets after every change.
+- Completions from the running kernel, just like autocomplete in the Chrome dev tools.
+- Code can be inspected to show useful information provided by the running kernel.
+- One kernel per language (so you can run snippets from several files, all in the same namespace).
+- Interrupt or restart the kernel if anything goes wrong.
+- Use a custom kernel connection (for example to run code inside Docker), read more in the "Custom kernel connection (inside Docker)" section.
+
+Featues of `hydrogen-next`:
 
 - Package works well in Pulsar and PulsarNext.
 - Dependencies `jmp` & `zeromq` updated to latest version & fix applied.
 - Lib `.ts`. and `.tsx` converted to java script.
-- New commands added, e.g. `hydrogen:recalculate-all`.
+- New commands added, e.g. `hydrogen:recalculate-all`, `hydrogen-run:run-all-inline`.
 - Deleted docs, examples & spec to simplify repository maintenance.
 - Fixed CSS of React-Table.
 - All config `Hydrogen...` renamed to `hydrogen...`.
 - Context menu of text-editor cleared.
 - Integrated `hydrogen-run` package.
-
-## New concepts
-
-The package introduce two new concepts of evaluation:
-
-- `recalculate`: clear result -> restart kernel -> run calculation,
-- `inline`: calculation is going one breakpoint after one instead of pushing all text to python interpreter instantly. This way you got result next to breakpoints. Inline methods inherit all limitations of hydrogen package, e.g. in Python `if ... else ...` is broken.
 
 ## Alternative keymaps
 
