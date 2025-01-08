@@ -20,3 +20,5 @@ To install `hydrogen-next` search for [hydrogen-next](https://web.pulsar-edit.de
 # Contributing
 
 Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
+
+Thanks to [@mauricioszabo](https://github.com/mauricioszabo) for showing me a way to get hydrogen to work in the latest Electron.
