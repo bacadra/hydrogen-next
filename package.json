@@ -35,7 +35,8 @@
       "hydrogen:export-notebook"
     ],
     "atom-workspace": [
-      "hydrogen:import-notebook"
+      "hydrogen:import-notebook",
+      "hydrogen:debug-toggle"
     ]
   },
   "dependencies": {
