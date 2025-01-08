@@ -50,7 +50,7 @@
     "atom-select-list": "^0.8.1",
     "escape-carriage": "^1.2.0",
     "escape-string-regexp": "^4.0.0",
-    "jmp": "^2.0.0",
+    "jmp": "asiloisad/jmp#bump-zeromq6",
     "kernelspecs": "^2.0.0",
     "lodash": "^4.14.0",
     "mathjax-electron": "^3.0.0",
