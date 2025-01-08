@@ -8,11 +8,11 @@ To install `hydrogen-next` search for [hydrogen-next](https://web.pulsar-edit.de
 
 ## Features
 
-- Package works wekk in Pulsar and PulsarNext.
-- `jmp` & `zeromq` updated to latest version & fixed applied.
-- `.ts`. and `.tsx` converted to java script.
+- Package works well in Pulsar and PulsarNext.
+- Dependencies `jmp` & `zeromq` updated to latest version & fix applied.
+- Lib `.ts`. and `.tsx` converted to java script.
 - New commands added, e.g. `hydrogen:recalculate-all`.
-- Deleted docs, examples & spec.
+- Deleted docs, examples & spec to simplify repository maintenance.
 - Fixed CSS of React-Table.
 - All config `Hydrogen...` renamed to `hydrogen...`.
 - Context menu of text-editor cleared.
