@@ -9,6 +9,7 @@ package-lock.json
 !spec/helpers/*.ipynb
 .mypy_cache/
 .ropeproject/
+.dev
 
 # Build directories
 dist
