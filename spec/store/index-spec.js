@@ -461,7 +461,7 @@ describe("Store", () => {
     let kernel1;
 
     beforeEach(() => {
-      atom.config.set("Hydrogen.globalMode", true);
+      atom.config.set("hydrogen.globalMode", true);
       mockStore = new Store();
       kernelSpec = { language: "python", display_name: "Python 3" };
       grammar = {
@@ -479,7 +479,7 @@ describe("Store", () => {
     });
 
     afterEach(() => {
-      atom.config.set("Hydrogen.globalMode", false);
+      atom.config.set("hydrogen.globalMode", false);
     });
 
     it("should use the same kernel if two files have the same grammar", () => {

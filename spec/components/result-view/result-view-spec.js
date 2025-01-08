@@ -8,7 +8,7 @@ import ResultViewComponent from "../../../dist/components/result-view/result-vie
 
 describe("ResultViewComponent", () => {
   beforeEach(() => {
-    atom.config.set(`Hydrogen.wrapOutput`, false);
+    atom.config.set(`hydrogen.wrapOutput`, false);
   });
 
   it("should render", () => {

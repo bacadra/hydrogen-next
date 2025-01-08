@@ -62,11 +62,11 @@ describe("Status Bar Component", () => {
       expect(component.text()).toBe("Kernel Language Display Name | idle");
 
       // disable the status bar
-      store.setConfigValue("Hydrogen.statusBarDisable", true);
+      store.setConfigValue("hydrogen.statusBarDisable", true);
       expect(component.text()).toBe("");
 
       // re-enable the status bar
-      store.setConfigValue("Hydrogen.statusBarDisable", false);
+      store.setConfigValue("hydrogen.statusBarDisable", false);
       expect(component.text()).toBe("Kernel Language Display Name | idle");
     });
   });

@@ -2,7 +2,7 @@
   {
     label: 'Packages'
     submenu: [
-      label: 'Hydrogen'
+      label: 'hydrogen'
       submenu: [
         {
           label: 'Start Local Kernel'
@@ -97,7 +97,7 @@
   '.tree-view .file .name[data-name$=\\.ipynb]': [
     {type: 'separator'}
     {
-      label: 'Hydrogen'
+      label: 'hydrogen'
       submenu: [
         {
           label: 'Import Notebook'

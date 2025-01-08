@@ -28,7 +28,7 @@ describe("utils", () => {
 
     it("should return respect languageMappings", () => {
       atom.config.set(
-        "Hydrogen.languageMappings",
+        "hydrogen.languageMappings",
         `{"Kernel Language": "Grammar Language"}`
       );
       expect(
@@ -41,7 +41,7 @@ describe("utils", () => {
           name: "Kernel Language",
         })
       ).toEqual("kernel language");
-      atom.config.set("Hydrogen.languageMappings", "");
+      atom.config.set("hydrogen.languageMappings", "");
     });
   });
 

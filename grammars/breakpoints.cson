@@ -1,5 +1,5 @@
 scopeName: 'hydrogen.breakpoints'
-name: 'Hydrogen breakpoints'
+name: 'hydrogen breakpoints'
 injectionSelector: 'comment.line'
 patterns: [
   {
