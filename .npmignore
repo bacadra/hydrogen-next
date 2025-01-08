@@ -1,8 +1,0 @@
-.DS_Store
-npm-debug.log
-node_modules
-.ipynb_checkpoints
-*.ipynb
-kernel-configs/
-types/
-flow-typed/
