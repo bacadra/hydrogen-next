@@ -1,7 +1,7 @@
 {
   "name": "hydrogen-next",
   "description": "Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text editor.",
-  "repository": "https://github.com/asiloisad/hydrogen-next",
+  "repository": "https://github.com/bacadra/hydrogen-next",
   "keywords": [
     "execute",
     "run",
@@ -51,7 +51,7 @@
     "atom-select-list": "^0.8.1",
     "escape-carriage": "^1.2.0",
     "escape-string-regexp": "^4.0.0",
-    "jmp": "asiloisad/jmp#bump-zeromq6",
+    "jmp": "bacadra/jmp#bump-zeromq6",
     "kernelspecs": "^2.0.0",
     "lodash": "^4.14.0",
     "mathjax-electron": "^3.0.0",
