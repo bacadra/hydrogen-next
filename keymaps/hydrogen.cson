@@ -1,27 +1,14 @@
-# Keybindings require three things to be fully defined: A selector that is
-# matched against the focused element, the keystroke and the command to
-# execute.
-#
-# Below is a basic keybinding which registers on all platforms by applying to
-# the root workspace element.
-
-# For more detailed documentation see
-# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
-
-# ---------- Editor --------------
 'atom-text-editor:not([mini])':
     'shift-enter': 'hydrogen:run-and-move-down'
     'shift-alt-enter': 'hydrogen:run-cell-and-move-down'
     'alt-i': 'hydrogen:toggle-inspector'
 
-# Override shift-enter and cmd-enter
 '.platform-darwin atom-text-editor:not([mini])':
     'shift-enter': 'hydrogen:run-and-move-down'
     'cmd-alt-enter': 'hydrogen:run-cell'
     'cmd-enter': 'hydrogen:run'
     'cmd-ctrl-enter': 'hydrogen:run-all'
 
-# Override ctrl-enter
 '.platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])':
     'ctrl-enter': 'hydrogen:run'
     'ctrl-shift-backspace': 'hydrogen:clear-results'
@@ -29,7 +16,6 @@
     'ctrl-enter': 'hydrogen:run'
     'ctrl-shift-alt-enter': 'hydrogen:run-all'
 
-# ---------- Workspace -----------
 '.platform-darwin atom-workspace':
     'cmd-alt-backspace': 'hydrogen:clear-results'
 
