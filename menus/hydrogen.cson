@@ -61,10 +61,46 @@
           label: 'Run All Above'
           command: 'hydrogen:run-all-above'
         }
+        {
+          label: 'Recalculate All'
+          command: 'hydrogen:recalculate-all'
+        }
+        {
+          label: 'Recalculate All Above'
+          command: 'hydrogen:recalculate-all-above'
+        }
+        {
+          label: 'Recalculate All Inline'
+          command: 'hydrogen:recalculate-all-inline'
+        }
+        {
+          label: 'Recalculate All Above Inline'
+          command: 'hydrogen:recalculate-all-above-inline'
+        }
+        {
+          label: 'Run All Inline'
+          command: 'hydrogen:run-all-inline'
+        }
+        {
+          label: 'Run All Above Inline'
+          command: 'hydrogen:run-all-above-inline'
+        }
+        {
+          label: 'Run All Below Inline'
+          command: 'hydrogen:run-all-below-inline'
+        }
         {type: 'separator'}
         {
           label: 'Clear Results'
           commands: 'hydrogen:clear-results'
+        }
+        {
+          label: 'Clear and Restart'
+          command: 'hydrogen:clear-and-restart'
+        }
+        {
+          label: 'Clear and Center'
+          command: 'hydrogen:clear-and-center'
         }
         {type: 'separator'}
         {
