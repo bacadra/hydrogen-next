@@ -4,10 +4,10 @@
 import React from "react";
 import Enzyme, { shallow } from "enzyme";
 
-import OutputArea from "../../dist/components/output-area";
-import { Store } from "../../dist/store";
-import KernelTransport from "../../dist/kernel-transport";
-import Kernel from "../../dist/kernel";
+import OutputArea from "../../lib/components/output-area";
+import { Store } from "../../lib/store";
+import KernelTransport from "../../lib/kernel-transport";
+import Kernel from "../../lib/kernel";
 
 describe("Output area component", () => {
   let storeMock, mockKernel, filePath, grammar, editor, component;

@@ -4,7 +4,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 
-import ResultViewComponent from "../../../dist/components/result-view/result-view";
+import ResultViewComponent from "../../../lib/components/result-view/result-view";
 
 describe("ResultViewComponent", () => {
   beforeEach(() => {

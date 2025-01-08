@@ -8,7 +8,7 @@ import Adapter from "enzyme-adapter-react-16";
 import Display, {
   isTextOutputOnly,
   supportedMediaTypes,
-} from "../../dist/components/result-view/display";
+} from "../../lib/components/result-view/display";
 
 Enzyme.configure({ adapter: new Adapter() });
 

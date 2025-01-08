@@ -2,7 +2,7 @@
 
 import { Range } from "atom";
 
-import MarkerStore from "../../dist/store/markers";
+import MarkerStore from "../../lib/store/markers";
 
 describe("MarkerStore", () => {
   let store;
