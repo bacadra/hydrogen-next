@@ -1,8 +1,6 @@
 'menu': [
   {
-    label: 'Packages'
-    submenu: [
-      label: 'hydrogen'
+      label: 'Hydrogen'
       submenu: [
         {
           label: 'Start Local Kernel'
@@ -125,7 +123,7 @@
           command: 'hydrogen:export-notebook'
         }
       ]
-    ]
+
   }
 ]
 

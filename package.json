@@ -59,6 +59,7 @@
     "mobx-react": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-is": "^19.0.0",
     "react-table": "^6.11.5",
     "spawnteract": "^5.1.0",
     "strip-indent": "^3.0.0",
@@ -110,5 +111,10 @@
     "nan": "2.18.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "apmInstallSource": {
+    "type": "git",
+    "source": "bacadra/pulsar-hydrogen-next",
+    "sha": "38632aea829fb7862f01462450e8bc7cd439261e"
   }
 }
