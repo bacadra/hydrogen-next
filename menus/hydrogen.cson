@@ -2,127 +2,127 @@
   {
     label: 'Packages'
     submenu: [
-      label: 'hydrogen'
+      label: 'hydrogen-next'
       submenu: [
         {
           label: 'Start Local Kernel'
-          command: 'hydrogen:start-local-kenel'
+          command: 'hydrogen-next:start-local-kenel'
         }
         {
           label: 'Connect to Remote Kernel'
-          command: 'hydrogen:connect-to-remote-kernel'
+          command: 'hydrogen-next:connect-to-remote-kernel'
         }
         {
           label: 'Connect to Existing Kernel'
-          command: 'hydrogen:connect-to-existing-kernel'
+          command: 'hydrogen-next:connect-to-existing-kernel'
         }
         {
           label: 'Interrupt Kernel'
-          command: 'hydrogen:interrupt-kernel'
+          command: 'hydrogen-next:interrupt-kernel'
         }
         {
           label: 'Restart Kernel'
-          command: 'hydrogen:restart-kernel'
+          command: 'hydrogen-next:restart-kernel'
         }
         {
           label: 'Shutdown Kernel'
-          command: 'hydrogen:shutdown-kernel'
+          command: 'hydrogen-next:shutdown-kernel'
         }
         {
           label: 'Toggle Kernel Monitor'
-          command: 'hydrogen:toggle-kernel-monitor'
+          command: 'hydrogen-next:toggle-kernel-monitor'
         }
         {
           label: 'Update Kernels'
-          commands: 'hydrogen:update-kernels'
+          commands: 'hydrogen-next:update-kernels'
         }
         {type: 'separator'}
         {
           label: 'Run'
-          command: 'hydrogen:run'
+          command: 'hydrogen-next:run'
         }
         {
           label: 'Run and Move Down'
-          command: 'hydrogen:run-and-move-down'
+          command: 'hydrogen-next:run-and-move-down'
         }
         {
           label: 'Run Cell'
-          command: 'hydrogen:run-cell'
+          command: 'hydrogen-next:run-cell'
         }
         {
           label: 'Run Cell and Move Down'
-          command: 'hydrogen:run-cell-and-move-down'
+          command: 'hydrogen-next:run-cell-and-move-down'
         }
         {
           label: 'Run All'
-          command: 'hydrogen:run-all'
+          command: 'hydrogen-next:run-all'
         }
         {
           label: 'Run All Above'
-          command: 'hydrogen:run-all-above'
+          command: 'hydrogen-next:run-all-above'
         }
         {
           label: 'Recalculate All'
-          command: 'hydrogen:recalculate-all'
+          command: 'hydrogen-next:recalculate-all'
         }
         {
           label: 'Recalculate All Above'
-          command: 'hydrogen:recalculate-all-above'
+          command: 'hydrogen-next:recalculate-all-above'
         }
         {
           label: 'Recalculate All Inline'
-          command: 'hydrogen:recalculate-all-inline'
+          command: 'hydrogen-next:recalculate-all-inline'
         }
         {
           label: 'Recalculate All Above Inline'
-          command: 'hydrogen:recalculate-all-above-inline'
+          command: 'hydrogen-next:recalculate-all-above-inline'
         }
         {
           label: 'Run All Inline'
-          command: 'hydrogen:run-all-inline'
+          command: 'hydrogen-next:run-all-inline'
         }
         {
           label: 'Run All Above Inline'
-          command: 'hydrogen:run-all-above-inline'
+          command: 'hydrogen-next:run-all-above-inline'
         }
         {
           label: 'Run All Below Inline'
-          command: 'hydrogen:run-all-below-inline'
+          command: 'hydrogen-next:run-all-below-inline'
         }
         {type: 'separator'}
         {
           label: 'Clear Results'
-          commands: 'hydrogen:clear-results'
+          commands: 'hydrogen-next:clear-results'
         }
         {
           label: 'Clear and Restart'
-          command: 'hydrogen:clear-and-restart'
+          command: 'hydrogen-next:clear-and-restart'
         }
         {
           label: 'Clear and Center'
-          command: 'hydrogen:clear-and-center'
+          command: 'hydrogen-next:clear-and-center'
         }
         {type: 'separator'}
         {
           label: 'Toggle Inspector'
-          command: 'hydrogen:toggle-inspector'
+          command: 'hydrogen-next:toggle-inspector'
         }
         {
           label: 'Toggle Output Area'
-          command: 'hydrogen:toggle-output-area'
+          command: 'hydrogen-next:toggle-output-area'
         }
         {
           label: 'Toggle Watches'
-          command: 'hydrogen:toggle-watches'
+          command: 'hydrogen-next:toggle-watches'
         }
         {type: 'separator'}
         {
           label: 'Import Notebook'
-          command: 'hydrogen:import-notebook'
+          command: 'hydrogen-next:import-notebook'
         }
         {
           label: 'Export Notebook'
-          command: 'hydrogen:export-notebook'
+          command: 'hydrogen-next:export-notebook'
         }
       ]
     ]
@@ -133,11 +133,11 @@
   '.tree-view .file .name[data-name$=\\.ipynb]': [
     {type: 'separator'}
     {
-      label: 'hydrogen'
+      label: 'hydrogen-next'
       submenu: [
         {
           label: 'Import Notebook'
-          command: 'hydrogen:import-notebook'
+          command: 'hydrogen-next:import-notebook'
         }
       ]
     }

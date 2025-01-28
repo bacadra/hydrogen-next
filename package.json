@@ -24,19 +24,19 @@
   "main": "./lib/main",
   "activationCommands": {
     "atom-text-editor": [
-      "hydrogen:start-local-kernel",
-      "hydrogen:connect-to-remote-kernel",
-      "hydrogen:run",
-      "hydrogen:run-and-move-down",
-      "hydrogen:run-all",
-      "hydrogen:run-all-above",
-      "hydrogen:run-cell",
-      "hydrogen:run-cell-and-move-down",
-      "hydrogen:export-notebook"
+      "hydrogen-next:start-local-kernel",
+      "hydrogen-next:connect-to-remote-kernel",
+      "hydrogen-next:run",
+      "hydrogen-next:run-and-move-down",
+      "hydrogen-next:run-all",
+      "hydrogen-next:run-all-above",
+      "hydrogen-next:run-cell",
+      "hydrogen-next:run-cell-and-move-down",
+      "hydrogen-next:export-notebook"
     ],
     "atom-workspace": [
-      "hydrogen:import-notebook",
-      "hydrogen:debug-toggle"
+      "hydrogen-next:import-notebook",
+      "hydrogen-next:debug-toggle"
     ]
   },
   "dependencies": {
