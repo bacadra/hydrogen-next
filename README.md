@@ -29,13 +29,13 @@ Featues of `hydrogen` & `hydrogen-next`:
 
 Featues of `hydrogen-next`:
 
-- Package works well in Pulsar and PulsarNext.
-- Dependencies `jmp` & `zeromq` updated to latest version & fix applied.
-- Lib `.ts`. and `.tsx` converted to java script.
-- New commands added, e.g. `hydrogen-next:recalculate-all`, `hydrogen-run:run-all-inline`.
-- Deleted docs, examples & spec to simplify repository maintenance.
-- Fixed CSS of React-Table.
-- All config `Hydrogen...` renamed to `hydrogen...`.
+- Package works well in Pulsar and PulsarNext without rebuild.
+- Dependencies `jmp` & `zeromq` updated to latest version.
+- Socket monitors fixed.
+- Libs `.ts`. and `.tsx` converted to java script.
+- PulsarNext React-Table CSS fixed.
+- All config `Hydrogen.` renamed to `hydrogen-next.`.
+- All commands `hydrogen:` renamed to `hydrogen-next:`.
 - Context menu of text-editor cleared.
 - Integrated `hydrogen-run` package.
 
